@@ -1,1 +1,4 @@
 # Graph_Implementation
+I wrote a code to solve a puzzle. We are given a 2-regular directed graph G = (V, E) (Recall that every vertex in a 2-regular directed graph has exactly two outgoing edges). On every vertex, there is a switch that has two states: ON/OFF. On two outgoing edges of every vertex, one edge has label a while the other has label b. For this project, self-loop edges (v, v) that point to the vertex v itself are also considered. Initially, a robot is put on some vertex. The robot takes our command and moves along the edge. We send the edge label to move the robot. When the robot enters a vertex through an edge it toggles the switch on the destination vertex.
+Implemented the basic SGraph class that contains the label information of the 2-regular digraph and the ON / OFF switches on the vertices.
+Implemented an efficient enumerator for all 2-regular digraph with different labels.
